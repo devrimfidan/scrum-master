@@ -1,7 +1,5 @@
 # scrum-master
 ScrumMaster.page
-
-# Awesome Productivity [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 > A curated list of delightful productivity resources.
 
 ## Contents

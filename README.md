@@ -49,6 +49,12 @@ ScrumMaster.page
 - [OneDrive](https://onedrive.live.com) - Best cloud storage solution for Windows users.
 - [pCloud](https://www.pcloud.com/) - A cloud storage solution with a strong focus on security.
 
+
+### Data Modeling 
+- [Dbdiagram](https://dbdiagram.io/home) - A free, simple tool to draw ER diagrams by just writing code.
+- [HeidiSQL](https://www.heidisql.com/) -  "Heidi" lets you see and edit data and structures from computers running one of the database systems MariaDB, MySQL, Microsoft SQL, PostgreSQL and SQLite.
+
+
 ### Note Management
 
 - [Evernote](https://evernote.com/) - Evernote can basically become your second brain and remember everything for you.

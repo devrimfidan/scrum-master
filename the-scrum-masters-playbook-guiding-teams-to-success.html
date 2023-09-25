@@ -144,7 +144,19 @@ MAIN
 			
 			</article>
 
-			<!--Zoho Campaigns Web-Optin Form Starts Here-->
+			
+
+
+			<div class="border p-5 bg-lightblue">
+				<div class="row justify-content-between">
+					<div class="col-md-5 mb-2 mb-md-0">
+						<h5 class="font-weight-bold secondfont">Become a member</h5>
+						 Get the latest news right in your inbox. We never spam!
+					</div>
+					<div class="col-md-7">
+						<div class="row">
+							<!--Zoho Campaigns Web-Optin Form's Header Code Starts Here-->
+
 <script type="text/javascript" src="https://tepg-glf.maillist-manage.com/js/optin.min.js" onload="setupSF('sf3z995e308c514d577795d0b3f1620d1dad834fc000ccf4d3338bcb82d3b015f470','ZCFORMVIEW',false,'light',false,'0')"></script>
 <script type="text/javascript">
 	function runOnFormSubmit_sf3z995e308c514d577795d0b3f1620d1dad834fc000ccf4d3338bcb82d3b015f470(th){
@@ -152,13 +164,25 @@ MAIN
 	};
 </script>
 
-<div id="sf3z995e308c514d577795d0b3f1620d1dad834fc000ccf4d3338bcb82d3b015f470" data-type="signupform">
+<style>
+.quick_form_8_css * {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    overflow-wrap: break-word
+}
+@media only screen and (max-width: 600px) {.quick_form_8_css[name="SIGNUP_BODY"] { width: 100% !important; min-width: 100% !important; margin: 0px auto !important; padding: 0px !important } .SIGNUP_FLD { width: 90% !important; margin: 10px 5% !important; padding: 0px !important } .SIGNUP_FLD input { margin: 0 !important; border-radius: 25px !important } }
+</style>
+
+<!--Zoho Campaigns Web-Optin Form's Header Code Ends Here--><!--Zoho Campaigns Web-Optin Form Starts Here-->
+
+<div id="sf3z995e308c514d577795d0b3f1620d1dad834fc000ccf4d3338bcb82d3b015f470" data-type="signupform" style="opacity: 1;">
 	<div id="customForm">
-		<div class="quick_form_8_css" name="SIGNUP_BODY">
+		<div class="quick_form_8_css" style="background-color: rgb(232, 243, 236); width: 350px; z-index: 2; font-family: Arial; border-width: 1px; border-color: rgb(235, 235, 235); overflow: hidden; border-style: none; height: 70px" name="SIGNUP_BODY">
 			<div>
-				<div id="SIGNUP_HEADING">Join Our Newsletter</div>
+				<div style="font-size: 14px; font-family: Arial; font-weight: bold; color: rgb(136, 136, 136); text-align: left; padding: 10px 20px 5px; width: 100%; display: block; height: 1px; border-width: 1px; border-style: none" id="SIGNUP_HEADING"></div>
 				<div style="position:relative;">
-					<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all ">
+					<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all">
 						<table width="100%" cellpadding="0" cellspacing="0" border="0">
 							<tbody>
 								<tr>
@@ -173,13 +197,13 @@ MAIN
 						</table>
 					</div>
 				</div>
-				<form method="POST" id="zcampaignOptinForm" action="https://tepg-glf.maillist-manage.com/weboptin.zc" target="_zcSignup">
-					<div id="errorMsgDiv">Please correct the marked field(s) below.</div>
-					<div class="SIGNUP_FLD">
-						<input type="text" placeholder="Enter your email address" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
+				<form method="POST" id="zcampaignOptinForm" style="margin: 0px; width: 100%" action="https://tepg-glf.maillist-manage.com/weboptin.zc" target="_zcSignup">
+					<div style="background-color: rgb(255, 235, 232); padding: 10px; color: rgb(210, 0, 0); font-size: 11px; margin: 20px 10px 0px; border: 1px solid rgb(255, 217, 211); opacity: 1; display: none" id="errorMsgDiv">Please correct the marked field(s) below.</div>
+					<div style="position: relative; margin: 10px 10px 10px; width: 200px; height: 30px; display: inline-block" class="SIGNUP_FLD">
+						<input type="text" style="border: 1px solid rgb(221, 221, 221); border-radius: 0px; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(136, 136, 136); text-align: left; background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Lato, Helvetica, sans-serif; font-size: 15px" placeholder="Enter your email address" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
 					</div>
-					<div class="SIGNUP_FLD">
-						<input type="button" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Subscribe">
+					<div style="position: relative; margin: 10px; width: 100px; height: 30px; text-align: left; display: inline-block" class="SIGNUP_FLD">
+						<input type="button" style="text-align: center; border-radius: 5px; width: 100%; height: 100%; z-index: 5; border: 1px none; color: rgb(255, 255, 255); cursor: pointer; outline: none; font-size: 14px; background-color: rgb(108, 187, 195); margin: 0px 0px 0px -5px" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Subscribe">
 					</div>
 					<input type="hidden" id="fieldBorder" value="">
 					<input type="hidden" id="submitType" name="submitType" value="optinCustomView">
@@ -203,7 +227,7 @@ MAIN
 			</div>
 		</div>
 	</div>
-	<img src="https://tepg-glf.maillist-manage.com/images/spacer.gif" id="refImage" onload="referenceSetter(this)">
+	<img src="https://tepg-glf.maillist-manage.com/images/spacer.gif" id="refImage" onload="referenceSetter(this)" style="display:none;">
 </div>
 <input type="hidden" id="signupFormType" value="QuickForm_Horizontal">
 <div id="zcOptinOverLay" oncontextmenu="return false" style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;"></div>
@@ -216,21 +240,6 @@ MAIN
 
 <!--Zoho Campaigns Web-Optin Form Ends Here-->
 
-
-			<div class="border p-5 bg-lightblue">
-				<div class="row justify-content-between">
-					<div class="col-md-5 mb-2 mb-md-0">
-						<h5 class="font-weight-bold secondfont">Become a member</h5>
-						 Get the latest news right in your inbox. We never spam!
-					</div>
-					<div class="col-md-7">
-						<div class="row">
-							<div class="col-md-12">
-								<input type="text" class="form-control" placeholder="Enter your e-mail address">
-							</div>
-							<div class="col-md-12 mt-2">
-								<button type="submit" class="btn btn-success btn-block">Subscribe</button>
-							</div>
 						</div>
 					</div>
 				</div>
